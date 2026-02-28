@@ -10,8 +10,6 @@
   </h1>
 
   <form action="" method="get" class="form-inline">
-    {% csrf_token %}
-    {{ search_form|crispy }}
     <input type="submit" class="btn btn-primary" value="Search">
   </form>
   {% if driver_list %}
